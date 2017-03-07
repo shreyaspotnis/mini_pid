@@ -1,0 +1,147 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N6284
+D Darlington NPN transistor
+K Q
+$ENDCMP
+#
+$CMP 7805_corrected
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
+$CMP AD820
+D Op amp
+K Ampliop
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP AD8628_tri
+D Op amp
+K Ampliop
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP ADA4177-1
+D Op amp
+K Ampliop
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP LM2940
+D 1-A Low Dropout Regulator
+$ENDCMP
+#
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LT1028
+D Op amp
+K Ampliop
+F AmpliOp.sch
+$ENDCMP
+#
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MPSA14_NPN
+D Darlington NPN transistor
+K Q
+$ENDCMP
+#
+$CMP MPSA64_PNP
+D Darlington PNP transistor
+K Q
+$ENDCMP
+#
+$CMP OP497
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP OPA2211
+D Dual Op amp (low power)
+K ampliop
+F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP OPA2227
+D Dual Op amp (low power)
+K ampliop
+F analog-dev/op275.pdf
+$ENDCMP
+#
+$CMP OPA4227
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP S5971
+D Diode
+$ENDCMP
+#
+$CMP TL074
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+$CMP TL4050A41
+D Precision 4.096V reference
+K DEV DIODE
+$ENDCMP
+#
+$CMP TL4050B41
+D Precision 4.096V reference
+K DEV DIODE
+$ENDCMP
+#
+$CMP TL4050B51
+D Precision 5V reference
+K DEV DIODE
+$ENDCMP
+#
+$CMP TLC274
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+#End Doc Library
