@@ -593,7 +593,7 @@ U 1 1 58CABA6C
 P 8050 4550
 F 0 "S3" V 8200 4400 60  0000 C CNN
 F 1 "spdt" H 8050 4800 60  0000 C CNN
-F 2 "footprints:SPDT-Horizontal" H 8050 4550 60  0001 C CNN
+F 2 "footprints:CJS-1200TB-SPDT" H 8050 4550 60  0001 C CNN
 F 3 "" H 8050 4550 60  0000 C CNN
 	1    8050 4550
 	0    -1   1    0   
@@ -966,8 +966,6 @@ Wire Wire Line
 	7600 2700 8900 2700
 Connection ~ 7700 2700
 Connection ~ 8000 2700
-Wire Wire Line
-	7450 3000 8000 3000
 Connection ~ 7700 3000
 Wire Wire Line
 	8900 2900 8900 3400
@@ -1022,14 +1020,12 @@ Wire Wire Line
 	1250 6900 1250 6950
 Wire Wire Line
 	1450 6650 2150 6650
-Text Label 3400 6800 0    60   ~ 0
-set_point
+Text Label 1700 3800 0    60   ~ 0
+set_point_mon
 Wire Wire Line
-	3350 6800 3400 6800
-Text Label 2450 3800 0    60   ~ 0
-set_point
+	3350 6800 3450 6800
 Wire Wire Line
-	2450 3800 3000 3800
+	1700 3800 3000 3800
 $Comp
 L POT RV2
 U 1 1 58CABB75
@@ -1299,4 +1295,22 @@ Wire Wire Line
 	8900 4050 8350 4050
 Wire Wire Line
 	8350 4050 8350 3200
+Text Label 3450 6800 0    60   ~ 0
+set_point_mon
+$Comp
+L GND #PWR?
+U 1 1 58C7F4CC
+P 7750 3100
+F 0 "#PWR?" H 7750 2850 50  0001 C CNN
+F 1 "GND" H 7750 2950 50  0000 C CNN
+F 2 "" H 7750 3100 50  0000 C CNN
+F 3 "" H 7750 3100 50  0000 C CNN
+	1    7750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3000 7750 3100
+Connection ~ 7750 3000
+Wire Wire Line
+	7700 3000 8000 3000
 $EndSCHEMATC
