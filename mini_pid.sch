@@ -53,13 +53,13 @@ $EndSheet
 $Sheet
 S 3050 1050 1650 1250
 U 58C404B7
-F0 "Intensity Stabilization" 60
+F0 "PI Circuit 1" 60
 F1 "file58C404B6.sch" 60
 $EndSheet
 $Sheet
-S 950  3000 1600 950 
+S 5250 1150 1600 950 
 U 58C423FB
-F0 "Path Length Stabilization" 60
+F0 "PI Circuit 2" 60
 F1 "file58C423FA.sch" 60
 $EndSheet
 $EndSCHEMATC
