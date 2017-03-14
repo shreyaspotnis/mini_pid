@@ -1,0 +1,31 @@
+References	Qty	Description
+C1, C2, C19, C6, C34, C21	6	C 10uF Unpolarized capacitor 0805 HandSoldering
+C4, C5, C3, C10, C8, C11, C9, C20, C7, C25, C23, C26, C24, C35, C22	15	C 0.1uF Unpolarized capacitor 0805 HandSoldering
+C12, C27	2	C 330pF Unpolarized capacitor 0805 HandSoldering
+C13, C28	2	C 2200pf Unpolarized capacitor 0805 HandSoldering
+C14, C29	2	C 10000pF Unpolarized capacitor 0805 HandSoldering
+C15, C30	2	C 0.047uF Unpolarized capacitor 0805 HandSoldering
+C16, C31	2	C 1000pF Unpolarized capacitor 0805 HandSoldering
+C17, C32	2	C 4700pF Unpolarized capacitor 0805 HandSoldering
+C18, C33	2	C 0.022uF Unpolarized capacitor 0805 HandSoldering
+D1, D2, D3, D4	4	TL4050B51 Precision 5V reference SOT-23
+J1	1	DB9 Throughhole
+P1, P3	2	Dual-BNC Servo In/Ext. Mod Dual-BNC-ARF2136
+P2, P4	2	Dual-BNC Output/Monitor Dual-BNC-ARF2136
+R1, R2, R23, R24	4	R 750 Resistor 0805 HandSoldering
+R7, R5, R10, R17, R18, R21, R29, R27, R32, R39, R40, R43	12	R 1k Resistor 0805 HandSoldering
+R8, R30	2	R 100k Resistor 0805 HandSoldering
+R9, R16, R3, R4, R6, R19, R20, R31, R38, R25, R26, R28, R41, R42	14	R 10k Resistor 0805 HandSoldering
+R11, R33	2	R 100 Resistor 0805 HandSoldering
+R12, R34	2	R 33k Resistor 0805 HandSoldering
+R13, R35	2	R 3.3k Resistor 0805 HandSoldering
+R14, R36	2	R 330 Resistor 0805 HandSoldering
+R15, R22, R37, R44	4	R 12 Resistor 0805 HandSoldering
+RV2, RV1, RV5, RV4	4	POT-RESCUE-mini pid 1k VishaySpectrol536
+RV3, RV6	2	POT-RESCUE-mini pid 10k VishaySpectrol536
+S1, S2, S4, S5, S6, S8	6	spdt SPDT-Horizontal
+S3, S7	2	spdt CJS-1200TB-SPDT
+U1	1	ED2610
+U2, U6	2	OPA4227 Quad Op amp. SOIC-14 3.9x8.7mm Pitch1.27mm
+U3, U7	2	OPA2227 Dual Op amp (low power) SOIC-8 3.9x4.9mm Pitch1.27mm
+U4, U5, U8, U9	4	8DIP 8 POS DIP Switch
