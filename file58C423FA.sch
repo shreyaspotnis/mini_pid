@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mini_pid-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -610,9 +611,11 @@ F 3 "" H 9850 2700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV6
+L POT-RESCUE-mini_pid RV6
 U 1 1 58C93987
 P 7500 2600
+AR Path="/58C93987" Ref="RV6"  Part="1" 
+AR Path="/58C423FB/58C93987" Ref="RV6"  Part="1" 
 F 0 "RV6" H 7500 2500 50  0000 C CNN
 F 1 "10k" H 7500 2600 50  0000 C CNN
 F 2 "footprints:VishaySpectrol536" H 7500 2600 50  0001 C CNN
@@ -755,9 +758,11 @@ $EndComp
 Text Label 3450 6700 0    60   ~ 0
 set_point_mon
 $Comp
-L POT RV5
+L POT-RESCUE-mini_pid RV5
 U 1 1 58C93A96
 P 5000 5000
+AR Path="/58C93A96" Ref="RV5"  Part="1" 
+AR Path="/58C423FB/58C93A96" Ref="RV5"  Part="1" 
 F 0 "RV5" H 5000 4900 50  0000 C CNN
 F 1 "1k" H 5000 5000 50  0000 C CNN
 F 2 "footprints:VishaySpectrol536" H 5000 5000 50  0001 C CNN
@@ -777,9 +782,11 @@ F 3 "" H 5000 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV4
+L POT-RESCUE-mini_pid RV4
 U 1 1 58C93AAC
 P 2000 1950
+AR Path="/58C93AAC" Ref="RV4"  Part="1" 
+AR Path="/58C423FB/58C93AAC" Ref="RV4"  Part="1" 
 F 0 "RV4" H 2000 1850 50  0000 C CNN
 F 1 "1k" H 2000 1950 50  0000 C CNN
 F 2 "footprints:VishaySpectrol536" H 2000 1950 50  0001 C CNN

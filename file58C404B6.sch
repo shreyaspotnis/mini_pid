@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mini_pid-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -610,9 +611,11 @@ F 3 "" H 9800 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV3
+L POT-RESCUE-mini_pid RV3
 U 1 1 58CABA7A
 P 7450 2700
+AR Path="/58CABA7A" Ref="RV3"  Part="1" 
+AR Path="/58C404B7/58CABA7A" Ref="RV3"  Part="1" 
 F 0 "RV3" H 7450 2600 50  0000 C CNN
 F 1 "10k" H 7450 2700 50  0000 C CNN
 F 2 "footprints:VishaySpectrol536" H 7450 2700 50  0001 C CNN
@@ -1027,9 +1030,11 @@ Wire Wire Line
 Wire Wire Line
 	1700 3800 3000 3800
 $Comp
-L POT RV2
+L POT-RESCUE-mini_pid RV2
 U 1 1 58CABB75
 P 4950 5100
+AR Path="/58CABB75" Ref="RV2"  Part="1" 
+AR Path="/58C404B7/58CABB75" Ref="RV2"  Part="1" 
 F 0 "RV2" H 4950 5000 50  0000 C CNN
 F 1 "1k" H 4950 5100 50  0000 C CNN
 F 2 "footprints:VishaySpectrol536" H 4950 5100 50  0001 C CNN
@@ -1066,9 +1071,11 @@ Connection ~ 2400 4500
 Wire Wire Line
 	3450 3650 3450 3000
 $Comp
-L POT RV1
+L POT-RESCUE-mini_pid RV1
 U 1 1 58CABB8B
 P 1950 2050
+AR Path="/58CABB8B" Ref="RV1"  Part="1" 
+AR Path="/58C404B7/58CABB8B" Ref="RV1"  Part="1" 
 F 0 "RV1" H 1950 1950 50  0000 C CNN
 F 1 "1k" H 1950 2050 50  0000 C CNN
 F 2 "footprints:VishaySpectrol536" H 1950 2050 50  0001 C CNN
